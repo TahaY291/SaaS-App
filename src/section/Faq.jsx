@@ -1,6 +1,7 @@
 import { Element } from "react-scroll";
 import faq from "../contants/faq.js";
 import FaqItem from "../components/FaqItem.jsx";
+import faqLogo from '/images/faq-logo.svg'
 
 function Faq() {
   const halflength = Math.floor(faq.length / 2);
@@ -27,7 +28,7 @@ function Faq() {
                   "rounded-half absolute -top-10 left-[calc(50%-40px)] z-4 flex size-20 items-center justify-center border-2 border-s2 bg-s1 "
                 }
               >
-                <img src={"./images/faq-logo.svg"} className={"size-1/2 "} />
+                <img src={faqLogo} className={"size-1/2 "} />
               </div>
               <div className={"relative flex-1 pt-24"}>
                 {faq.slice(0, halflength).map((item, index) => {

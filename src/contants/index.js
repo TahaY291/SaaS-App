@@ -137,25 +137,25 @@ export const links = [
   {
     id: "0",
     title: "Ios",
-    icon: "../../public/images/first.svg",
+    icon: "/images/first.svg",
     url: "#",
   },
   {
     id: "1",
     title: "Android",
-    icon: "../../public/images/scnd.svg",
+    icon: "/images/scnd.svg",
     url: "#",
   },
   {
     id: "2",
     title: "Windows",
-    icon: "../../public/images/thrd.svg",
+    icon: "/images/thrd.svg",
     url: "#",
   },
   {
     id: "3",
     title: "Web",
-    icon: "../../public/images/frth.svg",
+    icon: "/images/frth.svg",
     url: "#",
   },
 ];
